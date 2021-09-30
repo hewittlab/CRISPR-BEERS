@@ -9,7 +9,7 @@ This repository of CRISPR base editors can be used to rank subvariants against a
 - You will need to change the working directory in the line 7 of the script:
 setwd("~/YOUR/WORKING/DIRECTORY")
 
-The target editing window can be selected and the numbering is based on the position within the sgRNA sequence:
+- The target editing window can be selected and the numbering is based on the position within the sgRNA sequence:
 
 ![alt text](BEpos1.png)
 
