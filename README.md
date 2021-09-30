@@ -9,5 +9,5 @@ This repository of CRISPR base editors can be used to rank subvariants against a
 To Run this application, download all files in this repository to the same folder, and then run the "CRISPRbeers.R" file.
 
 
-![alt text](https://github.com/hewittlab/CRISPR-BEERS/BEpos1.png)
+![alt text](BEpos1.png)
 
