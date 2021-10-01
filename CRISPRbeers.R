@@ -1,10 +1,24 @@
-library(shiny)
-library(shinythemes)
-library(tidyverse)
+# PACKAGE INSTALLATION FUNCTION
+# helper function to install package if not already installed
+usePackage <- function(p) {
+  if (!is.element(p, installed.packages()[,1]))
+    install.packages(p, dep = TRUE)
+  require(p, character.only = TRUE)
+}
+
+
+# LOADING LIBRARIES
+# Some calls are repeated in relevant sections, ignore these
+usePackage('shiny') 
+usePackage('shinythemes') 
+usePackage('tidyverse') 
 
 #######################################################################################
-### ENTER YOUR WORKING DIRECTORY CONTAINING THE CRISPR BEERS DATABASE HERE: 
+# ENTER YOUR WORKING DIRECTORY CONTAINING THE CRISPR BEERS DATABASE HERE: 
+#
+
 setwd("~/Desktop/Research/CRISPR/Review4/App/proj12")
+#
 #######################################################################################
 
 CRISPRbeers <- as.data.frame(read.csv("BEERS_database.csv"))
