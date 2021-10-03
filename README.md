@@ -6,7 +6,7 @@ This repository of CRISPR base editors can be used to rank subvariants against a
 
 - To Run this application, download all files in this repository to the same folder, and then run the "CRISPRbeers.R" file.
 
-- You will need to change the working directory in the line 20 of the script:
+- You will need to change the working directory in the line 19 of the script:
 setwd("~/YOUR/WORKING/DIRECTORY")
 
 - The target editing window can be selected and the numbering is based on the position within the sgRNA sequence:
