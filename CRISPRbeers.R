@@ -8,7 +8,6 @@ usePackage <- function(p) {
 
 
 # LOADING LIBRARIES
-# Some calls are repeated in relevant sections, ignore these
 usePackage('shiny') 
 usePackage('shinythemes') 
 usePackage('tidyverse') 
@@ -17,7 +16,8 @@ usePackage('tidyverse')
 # ENTER YOUR WORKING DIRECTORY CONTAINING THE CRISPR BEERS DATABASE HERE: 
 #
 
-setwd("~/Desktop/Research/CRISPR/Review4/App/proj12")
+setwd("~/CRISPRbeers/App")
+
 #
 #######################################################################################
 
